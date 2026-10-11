@@ -8,7 +8,7 @@ limit 5;
 
 -- Q2 How many distinct real customers (customer_unique_id) are there?
 
-select count(distinct customer_id) as uid
+select count(distinct customer_unique_id) as uid
 from customers;
 
 -- Q3 Which payment type is used most, and what is its total payment value?
